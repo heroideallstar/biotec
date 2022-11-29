@@ -1,0 +1,108 @@
+body {
+    background-color:#D0E9ED;
+}
+
+h1 {
+    text-align: left;
+    pading:5%;    
+}
+
+#logo{
+    width: 20%;
+}
+
+header{
+     background-color:#017D86;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #017D86;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #017D86;
+}
+
+.link-linha::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  width: 50%;
+  height: 1px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.link-linha:hover::after {
+  width: 100%;
+  left: 0;
+  color: black;
+}
+
+.link-linha:hover {
+  color: black;
+  transition: 0.4s;
+}
+
+h2{
+  font-size: 20px;
+  color: #017D86;
+  margin-bottom:2%;
+}
+
+b{
+ color: #017D86;  
+}
+
+p{
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+}
+
+.relato{
+  float:left;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 2%;
+  color: black;
+}
+
+#escola{
+  width: 20%;
+  float: right;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 2%;
+}
+
+.resultado{
+  float:left;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 2%;
+  color: black; 
+  text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
